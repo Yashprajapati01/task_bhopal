@@ -4,8 +4,9 @@ This is a Flutter project for the **HackKernel** assignment. The application is 
 
 ## Features
 - User-friendly design
-- Task management functionalities
-- Responsive UI for multiple platforms
+- Product category based screen
+- Add product screen
+- Login screen
 
 ## Screenshots
 Here are some screenshots from the app:
