@@ -12,6 +12,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
+  bool _obsureText = true;
 
   void login() async {
     if (_formKey.currentState!.validate()) {
@@ -86,10 +87,18 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(height: 20),
                     TextFormField(
                       controller: _passwordController,
-                      obscureText: true,
+                      obscureText: _obsureText,
                       decoration: InputDecoration(
                         prefixIcon: Icon(Icons.lock),
-                        suffixIcon: Icon(Icons.visibility),
+                        suffixIcon: IconButton(
+                            onPressed: () {
+                              setState(() {
+                                _obsureText = !_obsureText;
+                              });
+                            },
+                            icon: Icon(_obsureText
+                                ? Icons.visibility_off
+                                : Icons.visibility)),
                         labelText: 'Password',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10.0),
