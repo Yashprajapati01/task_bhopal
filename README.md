@@ -1,16 +1,27 @@
-# task_bhopal
+# Task Bhopal
 
-A new Flutter project.
+This is a Flutter project for the **HackKernel** assignment. The application is built to showcase features of Flutter, integrating a clean and functional UI for managing tasks.
+
+## Features
+- User-friendly design
+- Task management functionalities
+- Responsive UI for multiple platforms
+
+## Screenshots
+Here are some screenshots from the app:
+
+| ![Homepage](https://github.com/Yashprajapati01/task_bhopal/blob/master/homepage.jpeg) | ![Login](https://github.com/Yashprajapati01/task_bhopal/blob/master/login.jpeg) |
+|:----------------------------------:|:----------------------------:|
+| ![Product View](https://github.com/Yashprajapati01/task_bhopal/blob/master/productview.jpeg) | ![Add Product](https://github.com/Yashprajapati01/task_bhopal/blob/master/addproduct.jpeg) |
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this project, make sure you have Flutter installed on your machine. You can find installation instructions on the [official Flutter website](https://flutter.dev/docs/get-started/install).
 
-A few resources to get you started if this is your first Flutter project:
+Clone this repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/Yashprajapati01/task_bhopal.git
+cd task_bhopal
+flutter pub get
+flutter run
